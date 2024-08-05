@@ -1,0 +1,7 @@
+create table if not exists discipline(
+  campus char(9) not null,
+  discipline char(38) not null,
+  department char(24) not null,
+  schedule char(6) not null,
+  primary key(campus, discipline, department, schedule)
+)
