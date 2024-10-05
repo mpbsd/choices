@@ -10,7 +10,7 @@ class Disciplines:
         self.year = year
         self.semester = semester
         self.database = Path(
-            "IMEUFG/data/%4d%02d.db" % (self.year, self.semester)
+            "plan/data/%4d%02d.db" % (self.year, self.semester)
         )
 
     def list(self):
