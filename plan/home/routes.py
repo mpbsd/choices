@@ -10,6 +10,6 @@ bp_home_routes = Blueprint("bp_home_routes", __name__)
 @bp_home_routes.route("/")
 def home():
     disciplines = db.session.scalars(
-        sa.select(Discipline).order_by(Discipline.schedule)
+        sa.select(Discipline).order_by(Discipline.campus)
     ).all()
-    return render_template("home/welcome.html", disciplines=disciplines)
+    return render_template("home/home.html", disciplines=disciplines)

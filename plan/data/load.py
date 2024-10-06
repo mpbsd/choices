@@ -6,17 +6,17 @@ from pathlib import Path
 
 
 class Disciplines:
-    def __init__(self, year, semester):
+    def __init__(self, year, half):
         self.year = year
-        self.semester = semester
-        self.database = Path(
-            "plan/data/%4d%02d.db" % (self.year, self.semester)
+        self.half = half
+        self.data = Path(
+            "plan/data/%4d%02d.db" % (self.year, self.half)
         )
 
     def list(self):
         dscplns = None
-        if self.database.is_file():
-            connection = sqlite3.connect(self.database)
+        if self.data.is_file():
+            connection = sqlite3.connect(self.data)
             cursor = connection.cursor()
             try:
                 response = cursor.execute("SELECT * FROM discipline")
@@ -26,7 +26,7 @@ class Disciplines:
         return dscplns
 
     def __repr__(self):
-        return f"Encargos didáticos do IME/UFG em {self.year}/{self.semester}"
+        return f"Encargos didáticos do IME/UFG em {self.year}/{self.half}"
 
 
 def main():
