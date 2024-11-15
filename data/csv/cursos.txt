@@ -1,0 +1,38 @@
+01 - administracao
+02 - agronomia
+03 - arquitetura
+04 - biomedicina
+05 - biotecnologia
+06 - ciencia da computacao
+07 - ciencias ambientais
+08 - ciencias biologicas
+09 - ciencias contabeis
+10 - ciencias economicas
+11 - comunicacao social
+12 - engenharia ambiental
+13 - engenharia civil
+14 - engenharia de alimentos
+15 - engenharia de computacao
+16 - engenharia de materiais
+17 - engenharia de producao
+18 - engenharia de software
+19 - engenharia de transportes
+20 - engenharia eletrica
+21 - engenharia fisica
+22 - engenharia florestal
+23 - engenharia mecanica
+24 - engenharia quimica
+25 - farmacia
+26 - fisica
+27 - fisioterapia
+28 - geologia
+29 - gestao da informacao
+30 - inteligencia artificial
+31 - medicina
+32 - nutricao
+33 - psicologia
+34 - quimica
+35 - relacoes internacionais
+36 - relacoes publicas
+37 - sistemas de informacao
+38 - zootecnia

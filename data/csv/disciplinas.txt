@@ -1,0 +1,30 @@
+01 - algebra linear
+02 - bioestatistica
+03 - bioestatistica 1
+04 - bioestatistica 2
+05 - calculo 1a
+06 - calculo 1b
+07 - calculo 1c
+08 - calculo 2a
+09 - calculo 2b
+10 - calculo 3
+11 - calculo 3a
+12 - calculo 3b
+13 - calculo numerico
+14 - edo
+15 - estatistica
+16 - estatistica 1
+17 - estatistica 2
+18 - estatistica descritiva e probabilidade
+19 - estatistica ii
+20 - estatistica inferencial
+21 - geometria analitica
+22 - inferencia
+23 - introducao a estatistica
+24 - introducao a probabilidade
+25 - matematica discreta
+26 - matematica financeira
+27 - nocoes de atuaria
+28 - probabilidade e estatistica
+29 - probabilidade e estatistica a
+30 - probabilidade e estatistica b
